@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(img/bg-image.jpg);
+  background-size: cover;
+  font-family: alice, sans-serif;
+  height: 1600px;
+}
+#contreceita {
+  border: solid #f0e8c2;
+  width: 800px;
+  height: 1440px;
+  border-radius: 24px;
+  margin: 18px auto;
+  background-color: #f0e8c2;
+}
+#contreceita img {
+  width: 750px;
+  height: 400px;
+  display: block;
+  margin: 18px auto;
+}
+#contreceita main {
+  width: 750px;
+  margin: auto;
+  text-align: left;
+  padding-left: 15px;
+}
+#about h1 {
+  color: #291b1a;
+  font-size: 40px;
+  margin-top: 24px;
+  margin-bottom: 10px;
+  line-height: 140%;
+}
+#about p {
+  margin-top: -5px;
+  font-size: 18px;
+  color: #573a37;
+}
+#ingredients ul {
+  margin-top: -10px;
+  color: #573a37;
+}
+#modopreparo {
+  font-size: 18px;
+}
+#modopreparo p {
+  color: #573a37;
+}
+
+h1 {
+  color: #291b1a;
+  margin-left: 10px;
+  line-height: 150%;
+}
+#credits {
+  width: max-content;
+  margin: 30px auto;
+  color: aliceblue;
+  font-size: 24px;
+}
+section + section {
+  margin-top: 24px;
+}
